@@ -8,7 +8,7 @@ import (
 func Hello(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html")
 
-	w.Write([]byte("<h1 color=steelblue>Hello</h1>"))
+	w.Write([]byte("<h1 style= 'color: steelblue'>Hello</h1>"))
 }
 
 func main() {
